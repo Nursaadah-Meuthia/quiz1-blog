@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>QUIZ 1 NURSA'ADAH MEUTHIA</title>
+        <title>UAS NIA APRILIA</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -12,8 +12,8 @@
         <!-- Styles -->
         <style>
             html, body {
-                background-color: #5F9EA0;
-                color: #000000;
+                background-color: #dcdcdc;
+                color: #636b6f;
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
                 height: 100vh;
@@ -49,7 +49,7 @@
             }
 
             .links > a {
-                color: #000000;
+                color: #636b6f;
                 padding: 0 25px;
                 font-size: 13px;
                 font-weight: 600;

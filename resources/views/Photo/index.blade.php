@@ -34,7 +34,7 @@
 		</tr>
 		@endforeach
 	</table>
-	<center> Tambah Photo : <a href="{{ url('photo/create') }}"> Tambah </a></center>
+	<a href="{{ url('photo/create') }}"> Tambah Data</a>
 </div>
 
 @endsection

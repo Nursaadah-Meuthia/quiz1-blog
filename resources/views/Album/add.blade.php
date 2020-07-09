@@ -3,10 +3,10 @@
 
 <div class="container">
 	<center><h3>Input Data Album</h3></center>
-	<center>Kembali :<a href="{{ url('album') }}"> Back</a></center>
+	<center><a href="{{ url('album') }}">kembali</a></center>
 	<form method="post" action="{{url('/album')}}">
 	@csrf
-		<table width="400px" border="2" cellpadding="10" cellspacing="10" bgcolor="#5F9EA0" align="center">
+		<table width="400px" border="2" cellpadding="10" cellspacing="10" bgcolor="#ff69b4" align="center">
 			<tr>
 				<td>PHOTO ID</td>
 				<td><input type="text" name="album_pho_id" class="form-control"></td>

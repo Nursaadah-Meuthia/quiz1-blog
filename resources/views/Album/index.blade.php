@@ -32,7 +32,7 @@
 		</tr>
 		@endforeach
 	</table>
-	<center> Tambah Album : <a href="{{ url('album/create') }}"> Tambah </a></center>
+<a href="{{ url('album/create') }}"> Tambah Data</a>
 </div>
 
 @endsection

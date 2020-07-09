@@ -3,12 +3,12 @@
 
 <div class="container">
 	<center><h3>Edit Data Photo</h3></center>
-	<center>Kembali :<a href="{{ url('photo') }}"> Back</a></center>
+	<center><a href="{{ url('photo') }}">kembali</a></center>
 	<form action="{{ url('/photo/' . $row->id)}}" method="post">
 	<input name="_method" type="hidden" value="patch">
 	@csrf
 
-	<table width="400px" border="2" cellpadding="10" cellspacing="10" bgcolor="#5F9EA0" align="center">
+	<table width="400px" border="2" cellpadding="10" cellspacing="10" bgcolor="#ff69b4" align="center">
 		<tr>
 			<td>POST ID</td>
 			<td><input type="text" name="pho_post_id" value="{{ $row->pho_post_id}}"></td>

@@ -30,7 +30,7 @@
 		</tr>
 		@endforeach
 	</table>
-	<center> Tambah Category : <a href="{{ url('category/create') }}"> Tambah </a></center>
+	<a href="{{ url('category/create') }}"> Tambah Data</a>
 </div>
 
 @endsection

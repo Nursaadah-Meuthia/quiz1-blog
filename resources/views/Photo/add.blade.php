@@ -3,10 +3,10 @@
 
 <div class="container">
 	<center><h3>Input Data Photo</h3></center>
-	<center>Kembali :<a href="{{ url('photo') }}"> Back</a></center>
+	<center><a href="{{ url('photo') }}">kembali</a></center>
 	<form method="post" action="{{url('/photo')}}">
 	@csrf
-		<table width="400px" border="2" cellpadding="10" cellspacing="10" bgcolor="#5F9EA0" align="center">
+		<table width="400px" border="2" cellpadding="10" cellspacing="10" bgcolor="#ff69b4" align="center">
 			<tr>
 				<td>POST ID</td>
 				<td><input type="text" name="pho_post_id" class="form-control"></td>
